@@ -1,0 +1,81 @@
+* {
+    font-family: 'Jura', sans-serif;
+    color: white;
+}
+
+:root {
+    --blu: #2B9DF4;
+}
+
+.color-1 {
+    color: var(--blu);
+}
+
+body {
+    background-color: black;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+nav {
+    color: rgb(160, 160, 160);
+    height: 8vh;
+    border-bottom: solid 1px white;
+}
+
+header {
+    height: 92vh;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 90%), url(./media/moon.jpg);
+    background-size: cover;
+    position: absolute;
+    /* background-position-y: -180px; */
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header i {
+    color: var(--blu);
+    bottom: 0;
+    width: 100%;
+}
+
+.carte {
+    background-color: black;
+    border: solid var(--blu) 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.testo-carte {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h3 {
+    color: var(--blu);
+}
+
+.bordo-carte-x {
+    border-top: solid 1px var(--blu);
+    padding-top: 1vh;
+}
+
+button {
+    background-color: transparent;
+    border: var(--blu) solid 2px;
+}
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.549) 15%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.691)), url(./media/sunrise-1765027_1920.jpg);
+    height: 960px;
+    background-position: center;
+    background-size: cover;
+}
