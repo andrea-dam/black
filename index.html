@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Template Black</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Fonts -->
@@ -16,14 +16,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navigation d-flex align-items-center">
-        <ul class="d-flex m-0">
-            <li class="pe-5"><i class="fa-solid fa-moon fa-2xl"></i></li>
-            <li class="pe-5">Link 1</li>
-            <li class="pe-5">Link 2</li>
-            <li class="pe-5">Link 3</li>
-            <li class="pe-5">Link 4</li>
-        </ul>
+    <nav class="container-fluid d-flex align-items-center border-bottom">
+        <div class="row">
+            <ul class="d-flex align-items-center my-0">
+                <li class="mx-4 me-md-5"><i class="fa-solid fa-moon fa-2x"></i></li>
+                <li class="me-4 me-md-5">Link 1</li>
+                <li class="me-4 me-md-5">Link 2</li>
+                <li class="me-4 me-md-5">Link 3</li>
+                <li class="me-4 me-md-5">Link 4</li>
+            </ul>
+        </div>
     </nav>
     <header class="position-relative">
         <div class="d-flex flex-column justify-content-center h-100 p-5">
@@ -72,11 +74,11 @@
         <!-- Luna -->
         <section class="container mt-5">
             <div class="row align-items-center">
-                <div class="col-6 text-white">
+                <div class="col-12 col-md-6 text-white">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel earum recusandae in quidem explicabo ut dolore deserunt illo numquam optio dolorum eum, voluptatum atque! Quod animi qui voluptatem architecto enim!</p>
                 </div>
-                <div class="col-6">
+                <div class="col-6 d-none d-md-block">
                     <img class="img-fluid" src="./media/moon2.jpg" alt="">
                 </div>
             </div>
@@ -85,7 +87,7 @@
         <section class="container-fluid mt-5">
             <div class="row justify-content-between align-items-center">
                 <!-- Colonna Sinistra -->
-                <div class="col-12 col-md-3 ms-5">
+                <div class="col-12 col-md-3 ms-md-5">
                     <div class="mb-5">
                         <i class="fa-solid fa-meteor fa-2x me-3 color-1"></i><h5 class="d-inline-block">Lorem</h5>
                         <p class="bordo-carte-x">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consectetur illo illum odio tempora ipsa quae quidem nisi, excepturi eos doloremque et tenetur a rem dolorem perferendis in fugit sint.</p>
@@ -103,7 +105,7 @@
                     </div>
                 </div>
                 <!-- Colonna Destra -->
-                <div class="col-12 col-md-3 text-end me-5">
+                <div class="col-12 col-md-3 text-end me-md-5">
                     <div class="mb-5">
                         <i class="fa-solid fa-user-astronaut me-3 fa-2x color-1"></i><h5 class="d-inline-block">Lorem</h5>
                         <p class="bordo-carte-x">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consectetur illo illum odio tempora ipsa quae quidem nisi, excepturi eos doloremque et tenetur a rem dolorem perferendis in fugit sint.</p>
@@ -139,50 +141,50 @@
         </section>
         <!-- Sei Paragrafi -->
         <section class="container-fluid mt-5">
-            <div class="row justify-content-between mx-5">
+            <div class="row justify-content-between mx-3 mx-md-5">
                 <div class="col-12 col-md-5">
-                    <div>
+                    <div class="mb-5">
                         <h5 class="color-1">Lorem Ipsum Dolor</h5>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci enim veritatis exercitationem molestias consectetur fugit aut ab, voluptatum voluptates cum? Odio accusamus qui reprehenderit pariatur sit obcaecati iure soluta maiores?</p>
                         <div class="row justify-content-end">
-                            <button class="col-2 p-2">Go to</button>
+                            <button class="col-4 p-2">Go to</button>
                         </div>
                     </div>
-                    <div>
+                    <div class="mb-5">
                         <h5 class="color-1">Lorem Ipsum Dolor</h5>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci enim veritatis exercitationem molestias consectetur fugit aut ab, voluptatum voluptates cum? Odio accusamus qui reprehenderit pariatur sit obcaecati iure soluta maiores?</p>
                         <div class="row justify-content-end">
-                            <button class="col-2 p-2">Go to</button>
+                            <button class="col-4 p-2">Go to</button>
                         </div>
                     </div>
-                    <div>
+                    <div class="mb-5">
                         <h5 class="color-1">Lorem Ipsum Dolor</h5>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci enim veritatis exercitationem molestias consectetur fugit aut ab, voluptatum voluptates cum? Odio accusamus qui reprehenderit pariatur sit obcaecati iure soluta maiores?</p>
                         <div class="row justify-content-end">
-                            <button class="col-2 p-2">Go to</button>
+                            <button class="col-4 p-2">Go to</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-5">
-                    <div>
+                    <div class="mb-5">
                         <h5 class="color-1">Lorem Ipsum Dolor</h5>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci enim veritatis exercitationem molestias consectetur fugit aut ab, voluptatum voluptates cum? Odio accusamus qui reprehenderit pariatur sit obcaecati iure soluta maiores?</p>
                         <div class="row justify-content-end">
-                            <button class="col-2 p-2">Go to</button>
+                            <button class="col-4 p-2">Go to</button>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <h5 class="color-1">Lorem Ipsum Dolor</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci enim veritatis exercitationem molestias consectetur fugit aut ab, voluptatum voluptates cum? Odio accusamus qui reprehenderit pariatur sit obcaecati iure soluta maiores?</p>
+                        <div class="row justify-content-end">
+                            <button class="col-4 p-2">Go to</button>
                         </div>
                     </div>
                     <div>
                         <h5 class="color-1">Lorem Ipsum Dolor</h5>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci enim veritatis exercitationem molestias consectetur fugit aut ab, voluptatum voluptates cum? Odio accusamus qui reprehenderit pariatur sit obcaecati iure soluta maiores?</p>
                         <div class="row justify-content-end">
-                            <button class="col-2 p-2">Go to</button>
-                        </div>
-                    </div>
-                    <div>
-                        <h5 class="color-1">Lorem Ipsum Dolor</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci enim veritatis exercitationem molestias consectetur fugit aut ab, voluptatum voluptates cum? Odio accusamus qui reprehenderit pariatur sit obcaecati iure soluta maiores?</p>
-                        <div class="row justify-content-end">
-                            <button class="col-2 p-2">Go to</button>
+                            <button class="col-4 p-2">Go to</button>
                         </div>
                     </div>
                 </div>
@@ -191,14 +193,12 @@
     </main>
     <footer class="container-fluid mt-5 d-flex flex-column justify-content-end position-relative px-0">
         <div class="row position-absolute p-5">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <h4 class="color-1">Lorem Ipsum</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum recusandae, necessitatibus similique id, nulla consequuntur veniam, minima est repudiandae natus assumenda accusantium nam! Enim, labore quos? Atque at inventore ea!</p>
             </div>
         </div>
-        
     </footer>
-    
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>

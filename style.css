@@ -30,7 +30,7 @@ header {
     background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 90%), url(./media/moon.jpg);
     background-size: cover;
     position: absolute;
-    /* background-position-y: -180px; */
+    background-position: center;
 }
 
 h1 {
